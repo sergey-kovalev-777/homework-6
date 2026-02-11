@@ -54,19 +54,19 @@ public class Main {
         int total = 0;
         for (int i = 0; i <= 12; i++) {
             total = total + salary;
+        System.out.println("Месяц " + i + " Итого " + total);
         }
-        System.out.println(total);
 
         System.out.println("\nЗадача 9");
 
         salary = 29000;
         total = 0;
-        for (int i = 0; i <= 12; i++) {
+        for (int i = 1; i <= 12; i++) {
             total = total + total / 100;
             total = total + salary;
-            System.out.println("Месяц " + i + " Итого " + total);
+            System.out.println("Месяц " + i + " Сумма накоплений равна " + total + " рублей");
         }
-
+        
         System.out.println("\nЗадача 10");
 
         int num = 2;
